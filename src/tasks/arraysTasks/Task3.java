@@ -10,7 +10,7 @@ public class Task3 {
         for (int i = 0; i < someArray.length; i++) {
              int localMax = someArray[i];
              int localValue = 0;
-            for (int x = 0; x < someArray.length; x++) {
+            for (int x = i; x < someArray.length; x++) {
                 if(someArray[i] == someArray[x]){
                     localValue++;
                 }
